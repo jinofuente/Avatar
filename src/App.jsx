@@ -1,10 +1,15 @@
 import './App.scss'
+import { Header } from './components/Header/Header'
+import { Hero } from './components/Hero/Hero'
 
 const App = () => {
 
   return (
     <div className="App">
-      Avatar
+      <Header />
+      <main className="Main">
+        <Hero />
+      </main>
     </div>
   )
 }
